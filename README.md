@@ -1,7 +1,5 @@
 [![pypi][pypi-image]][pypi-url]
-[![pypi-downloads][pypi-downloads-image]][pypi-url]
 
-[pypi-downloads-image]: https://img.shields.io/pypi/dm/code-wallet.svg?style=flat
 [pypi-image]: https://img.shields.io/pypi/v/code-wallet.svg?style=flat
 [pypi-url]: https://pypi.org/project/code-wallet/
 
@@ -36,13 +34,10 @@ test_data = {
 }
 
 # Create a payment request intent
-response = payment_intents.create(test_data)
-print("Intent:", response['id'])
-print("Client secret:", response['clientSecret']) # Pass this to the frontend
+payment_intents.create(test_data)
 
 # Verify the intent status
-response = payment_intents.getStatus({'intent': id})
-status = response.get('status')
+payment_intents.get_status(id)
 ```
 
 ## Getting Help
