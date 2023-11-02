@@ -1,5 +1,5 @@
 import unittest
-from src.kin import Kin
+from code_wallet.library.kin import Kin
 
 class TestKinAndQuarksConversion(unittest.TestCase):
 

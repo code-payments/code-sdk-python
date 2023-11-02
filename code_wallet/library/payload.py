@@ -1,9 +1,9 @@
 from enum import Enum
 from typing import Optional, List
 
-from src.currency import CurrencyCode
-from src.errors import ErrInvalidSize, ErrInvalidCurrency
-from src.currency import currency_code_to_index, index_to_currency_code, is_valid_currency
+from code_wallet.library.currency import CurrencyCode
+from code_wallet.library.errors import ErrInvalidSize, ErrInvalidCurrency
+from code_wallet.library.currency import currency_code_to_index, index_to_currency_code, is_valid_currency
 
 # Enum representing types of code kinds.
 class CodeKind(Enum):

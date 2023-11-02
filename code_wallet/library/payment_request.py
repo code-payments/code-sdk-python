@@ -1,15 +1,15 @@
-from src.publickey import PublicKey
-from src.idempotency import IdempotencyKey
-from src.payload import CodePayload, CodeKind
-from src.rendezvous import generate_rendezvous_keypair
-from src.message import (
+from code_wallet.library.publickey import PublicKey
+from code_wallet.library.idempotency import IdempotencyKey
+from code_wallet.library.payload import CodePayload, CodeKind
+from code_wallet.library.rendezvous import generate_rendezvous_keypair
+from code_wallet.library.message import (
     ExchangeData,
     ExchangeDataWithoutRate,
     RequestToReceiveBill,
     SolanaAccountId,
     Message
 )
-from src.errors import (
+from code_wallet.library.errors import (
     ErrAmountRequired, 
     ErrCurrencyRequired, 
     ErrDestinationRequired, 

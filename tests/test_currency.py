@@ -1,6 +1,6 @@
 import unittest
-from src.currency import currency_code_to_index, index_to_currency_code, is_valid_currency
-from src.errors import ErrInvalidCurrency
+from code_wallet.library.currency import currency_code_to_index, index_to_currency_code, is_valid_currency
+from code_wallet.library.errors import ErrInvalidCurrency
 
 class TestCurrencyUtilities(unittest.TestCase):
 

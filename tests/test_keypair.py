@@ -1,6 +1,6 @@
 import unittest
 from base64 import b64decode
-from src.keypair import Keypair
+from code_wallet.library.keypair import Keypair
 
 class TestKeypair(unittest.TestCase):
 

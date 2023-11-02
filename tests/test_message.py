@@ -1,7 +1,7 @@
 import unittest
 
-from src.kin import Kin
-from src.payment_request import PaymentRequestIntent
+from code_wallet.library.kin import Kin
+from code_wallet.library.payment_request import PaymentRequestIntent
 
 class TestProtoSerialization(unittest.TestCase):
 

@@ -1,8 +1,8 @@
 import unittest
 
-from src.kin import Kin
-from src.payload import CodePayload, CodeKind
-from src.errors import ErrInvalidCurrency, ErrInvalidSize
+from code_wallet.library.kin import Kin
+from code_wallet.library.payload import CodePayload, CodeKind
+from code_wallet.library.errors import ErrInvalidCurrency, ErrInvalidSize
 
 class TestCodePayload(unittest.TestCase):
 

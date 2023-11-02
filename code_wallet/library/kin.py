@@ -1,5 +1,5 @@
 import base58
-from src.publickey import PublicKey
+from code_wallet.library.publickey import PublicKey
 
 class Kin:
     """ Represents the Kin cryptocurrency with operations to handle whole and fractional units. """

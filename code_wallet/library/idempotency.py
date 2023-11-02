@@ -1,8 +1,8 @@
 import base58
 import hashlib
 
-from src.keypair import Keypair
-from src.errors import ErrInvalidSize
+from code_wallet.library.keypair import Keypair
+from code_wallet.library.errors import ErrInvalidSize
 
 class IdempotencyKey:
     MAX_LENGTH = 11

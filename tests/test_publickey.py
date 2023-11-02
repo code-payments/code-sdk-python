@@ -1,5 +1,5 @@
 import unittest
-from src.publickey import PublicKey
+from code_wallet.library.publickey import PublicKey
 
 class TestPublicKey(unittest.TestCase):
 

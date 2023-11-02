@@ -1,7 +1,7 @@
 import unittest
 import base58
 
-from src.idempotency import IdempotencyKey, ErrInvalidSize
+from code_wallet.library.idempotency import IdempotencyKey, ErrInvalidSize
 
 class TestIdempotencyKey(unittest.TestCase):
 

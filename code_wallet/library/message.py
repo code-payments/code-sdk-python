@@ -1,6 +1,6 @@
 from typing import Union
 
-from src.publickey import PublicKey
+from code_wallet.library.publickey import PublicKey
 
 class ProtoMessage:
     def serialize(self) -> bytes:

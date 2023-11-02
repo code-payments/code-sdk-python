@@ -1,5 +1,5 @@
 from enum import Enum
-from src.errors import ErrInvalidCurrency
+from code_wallet.library.errors import ErrInvalidCurrency
 
 # Represents a currency code.
 class CurrencyCode(Enum):

@@ -1,7 +1,7 @@
 import unittest
 
-from src.payment_request import PaymentRequestIntent
-from src.errors import (
+from code_wallet.library.payment_request import PaymentRequestIntent
+from code_wallet.library.errors import (
     ErrAmountRequired,
     ErrCurrencyRequired,
     ErrDestinationRequired,

@@ -2,7 +2,7 @@ from nacl import signing
 from nacl.public import PublicKey as NaclPublicKey
 from typing import Union
 
-from src.publickey import PublicKey
+from code_wallet.library.publickey import PublicKey
 
 class Keypair:
     def __init__(self, private_key: bytes, public_key: bytes):
