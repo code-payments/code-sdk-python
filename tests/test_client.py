@@ -1,6 +1,5 @@
 import unittest
 
-# Assuming your main code resides in a file named "payment_intents_module.py"
 from code_wallet.client.intents import payment_intents
 from code_wallet.library.payment_request import PaymentRequestIntent
 

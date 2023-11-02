@@ -32,8 +32,6 @@ class PaymentIntents:
             'webhook': obj.get('webhook', {}).get('url')
         }
 
-        print(body)
-
         client.post('createIntent', body)
 
         return {

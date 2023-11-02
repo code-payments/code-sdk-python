@@ -38,7 +38,6 @@ class Connection:
         if 'success' in json_data and json_data["success"]:
             return json_data
 
-        print(json_data, file=sys.stderr)
         raise ErrUnexpectedError()
 
     def post(self, method: str, body: dict) -> bool:
@@ -63,5 +62,4 @@ class Connection:
         if 'success' in json_data and json_data["success"]:
             return True
 
-        print(json_data, file=sys.stderr)
         raise ErrUnexpectedError()
