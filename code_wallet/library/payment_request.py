@@ -1,3 +1,4 @@
+from code_wallet.library.kin import Kin
 from code_wallet.library.publickey import PublicKey
 from code_wallet.library.idempotency import IdempotencyKey
 from code_wallet.library.payload import CodePayload, CodeKind
@@ -56,7 +57,7 @@ class PaymentRequestIntent:
         amount = self.options['amount']
 
         if currency == "kin":
-            exchangeData = ExchangeData('kin', 1, self.convertedAmount, amount)
+            exchangeData = ExchangeData('kin', 1, Kin.from_decimal(amount).to_quarks(), amount)
         else:
             exchangeData = ExchangeDataWithoutRate(currency, amount)
 
