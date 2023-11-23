@@ -5,7 +5,7 @@
 
 ![sdk](https://github.com/code-wallet/code-sdk-python/assets/623790/332b245d-e890-431c-8e39-22bf0e325819)
 
-# Code Wallet Python SDK
+# Code Python SDK
 
 The Code Wallet Python SDK is a module that allows Python developers to integrate Code into their applications. Seamlessly start accepting payments with minimal setup and just a few lines of code.
 
