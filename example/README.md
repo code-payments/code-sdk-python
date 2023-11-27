@@ -1,5 +1,5 @@
-# Code Wallet Python SDK - Flask Example
-This example demonstrates how to use the Code Wallet Python SDK in a simple Flask application.
+# Code SDK - Python Flask Example
+This example demonstrates how to use the Code Python SDK in a simple Flask application.
 
 ## Prerequisites
 
