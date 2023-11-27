@@ -18,7 +18,7 @@ See the [documentation](https://code-wallet.github.io/code-sdk/docs/guide/introd
 
 ## Installation
 
-You can install the Code Wallet Python SDK from PyPI:
+You can install the Code Python SDK from PyPI:
 
 ```bash
 pip install code-wallet
