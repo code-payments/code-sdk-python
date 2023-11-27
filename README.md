@@ -1,11 +1,12 @@
-[![pypi][pypi-image]][pypi-url]
-
-[pypi-image]: https://img.shields.io/pypi/v/code-wallet.svg?style=flat
-[pypi-url]: https://pypi.org/project/code-wallet/
-
-![sdk](https://github.com/code-wallet/code-sdk-python/assets/623790/332b245d-e890-431c-8e39-22bf0e325819)
+<img width="1280" alt="Code SDK - Python" src="https://github.com/code-payments/code-sdk-python/assets/623790/ec242a67-0067-46f9-8bb9-56e38be846fd">
 
 # Code SDK - Python
+[![pypi][pypi-image]][pypi-url]
+![license][license-image]
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[pypi-image]: https://img.shields.io/pypi/v/code-wallet.svg?style=flat
+[pypi-url]: https://pypi.org/project/code-wallet/
 
 The Code Python SDK is a module that allows Python developers to integrate Code into their applications. Seamlessly start accepting payments with minimal setup and just a few lines of code.
 
